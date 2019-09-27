@@ -22,3 +22,7 @@ Route::get('/martin', function (){
 Route::get('/daniel', function (){
     return view('daniel');
 });
+
+Route::get('/abraham', function (){
+    return view('abraham');
+});
