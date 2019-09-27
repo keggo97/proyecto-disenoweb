@@ -12,8 +12,8 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #000000;
-            color: rgba(222, 246, 255, 0.65);
+            background-color: #0f0f0f;
+            color: rgb(222, 246, 255);
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
@@ -66,18 +66,18 @@
             margin-top: 40px;
             font-size: 20px;
         }
-        @keyframes azul-neon {
-            0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-                text-shadow: 9px 9px 18px #2fff31,
-                3px 3px 5px #006c0a,
-                -3px -3px 5px #006c0a,
-                -9px -9px 27px #2fff31;
-            }
+        /*@keyframes azul-neon {*/
+        /*    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {*/
+        /*        text-shadow: 9px 9px 18px #2fff31,*/
+        /*        3px 3px 5px #006c0a,*/
+        /*        -3px -3px 5px #006c0a,*/
+        /*        -9px -9px 27px #2fff31;*/
+        /*    }*/
 
-            10%, 15%, 60% {
-                text-shadow: none;
-            }
-        }
+        /*    10%, 15%, 60% {*/
+        /*        text-shadow: none;*/
+        /*    }*/
+        /*}*/
     </style>
 </head>
 <body>
